@@ -1,6 +1,5 @@
 package movienamegame;
 
-import java.io.FileNotFoundException;
 import java.util.List;
 
 public class Main {
@@ -14,7 +13,6 @@ public class Main {
 
         // 2.select a random line by using the list
         String randomMovName = g.getRandomElement(movieTitles);
-        System.out.println(randomMovName);
 
         // 3.converting the line of text(movie title) into a char array
         char[] maskedTitle = g.getCharArray(randomMovName);
